@@ -72,7 +72,7 @@ For further inquiries or discussions regarding this project, you can reach out t
 
 - Name: [Harshvardhan Patil]
 - Email: [harshrajavipatil@gmail.com]
-- GitHub: []
+- GitHub: [https://github.com/harshu-1011/Personal_Diary]
 
 Please note that in the above code snippet, the `<form action="SaveEntryServlet" method="POST">` attribute `action` is set to `SaveEntryServlet`, which represents the servlet or endpoint responsible for handling the form submission and saving the diary entry into the database. You would need to create the `SaveEntryServlet` and implement the necessary logic to process the form data and store it in the database.
 
