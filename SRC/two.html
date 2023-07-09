@@ -1,0 +1,49 @@
+<html>
+<head>
+  <link rel="stylesheet" href="two.css">
+</head>
+<body background="Img2.jpeg">
+    <div class="nav">
+            <a href="home.html" id="back"><i class="fa-sharp fa-solid fa-arrow-left fa-2xl" style="color: white;
+                        position: absolute; left: 10px; top: 70px; font-size: 30px;"></i></a>
+ <a href="#" id="profile"><i class="fa-solid fa-user fa-2xl" style="color: white; float: right;
+                        position: absolute; left: 1480px; top: 70px; font-size: 30px;"></i></a>
+        </div>
+    <center>
+<div class="container">
+    <div class="row">
+        <div class="col-md-6" align-items-center>
+            <div class="card">
+                <form action="two.jsp" method="get"  class="box" >
+                    <h1 style="color:rgb(24, 214, 10); font-style:inherit; font-size: 40px;" align-items-center>Login</h1>
+                    <p style="color:rgb(232, 225, 226);font-style: italic; font-size: 20px;"class="text-muted"> Please enter your login and password!</p> <input type="text" name="user"
+                        placeholder="Username"> <input class="password" type="password" placeholder="Password" id="myInput" name="pass">  
+
+                        <script>
+                            function myFunction() {
+                              var x = document.getElementById("myInput");
+                              if (x.type === "password") {
+                                x.type = "text";
+                              } else {
+                                x.type = "password";
+                              }
+                            }
+                            </script>
+                            
+                        <!-- An element to toggle between password visibility -->
+                        <div class="ShowPassword">
+                        <input type="checkbox" onclick="myFunction()">Show Password<br></div>
+                        <a
+                        style="cursor:pointer; color: rgb(183, 203, 207);"class="forgot text-muted" href="forgotPass.jsp">Forgot password?</a> 
+                        <input type="submit" name="login" value="Login">
+                   
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</center>
+
+<script src="https://kit.fontawesome.com/f7b191fa8f.js" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>MENU</title>
+<style type="text/css">
+	#head1{
+			text-align: center;
+			font-family: ALgerian;
+			color: white;
+			font-weight: 900;
+			font-size: 50px;
+			text-shadow: 4px 4px 2px grey;
+		}
+		.image
+		{
+       background-image: url("diary1.jpg") ;
+         margin: 0px auto;
+         height: 100%;
+         width: 100%;
+         background-position: center;
+          background-repeat: no-repeat;
+         background-size: cover;
+		}
+.items{
+display: grid;
+grid-template-columns: repeat(2, 1fr);
+padding: 30px 20px;
+grid-column-gap: 5px;
+grid-row-gap: 40px;
+border: 2px solid black;
+
+}
+.item img{
+object-fit: cover;
+cursor: pointer;
+transition: 0.2s ease;
+border-radius: 10px;
+}
+.item img:hover{
+transform: scale(1.04);
+}
+.item button{
+padding: 4px 10px;
+background-color: white;
+color: black;
+cursor: pointer;
+transition: 0.2s all;
+}
+a{
+color: black;
+text-decoration: none;
+}
+.icons
+{
+	float: right;
+	/*display: inline-block;*/
+	/*padding-right: 20px;
+	padding-top: 20px;*/
+	font-size: 20px;
+	cursor: pointer;
+	
+}
+.fa-arrow-left:hover
+{
+	color: grey !important;
+}
+.fa-user:hover
+{
+	color: grey !important;
+}
+
+</style>
+</head>
+<body bgcolor="black">
+<div class="header">
+	<h1 align="center" id="head1">MENU</h1>
+	<a href="two.html" id="back"><i class="fa-sharp fa-solid fa-arrow-left fa-2xl" style="color: white;
+						position: absolute; left: 10px; top: 70px;"></i></a>
+ <a href="#" id="profile"><i class="fa-solid fa-user fa-2xl" style="color: white; float: right;
+ 						position: absolute; left: 1450px; top: 70px; "></i></a>
+<a href="memories.jsp"><button style="margin-left: 75%; background-color: grey;height: 30px;width:300px;cursor: pointer;">GET YOUR DATA</button></a>
+  
+</div>
+ 
+<div class="image">
+
+<section class="items">
+<div class="item">
+	
+
+<h1 style="color: white; margin-left: 270px; text-shadow: 4px 4px 2px black;">DOCUMENTS</h1>
+<a href="fileupload1.jsp"><img src="doc.png" width="400px" height="350px" style="margin-left: 150px;"></a><br><br>
+</div>
+
+<div class="item">
+<h1 style="color: white; margin-left: 300px; text-shadow: 4px 4px 2px black;">THOUGHTS</h1>
+<a href="thought.html"><img src="thought3.png" width="400px" height="350px" style="margin-left: 150px;"></a><br><br>
+</div>
+
+<div class="item">
+<h1 style="color: white; margin-left: 270px; text-shadow: 4px 4px 2px black;">MULTIMEDIA</h1>
+<a href="multimedia.jsp"><img src="multimedia11.png" width="400px" height="350px" style="margin-left: 150px;"></a><br><br>
+</div>
+
+<div class="item">
+<h1 style="color: white; margin-left: 230px; text-shadow: 4px 4px 4px black;">LOGIN CREDENTIALS</h1>
+<a href="credlogin01.jsp"><img src="logincred1.png" width="400px" height="350px" style="margin-left: 150px;"></a><br><br>
+</div>
+
+
+</section>
+</div>
+<script src="https://kit.fontawesome.com/f7b191fa8f.js" crossorigin="anonymous"></script>
+</body>
+</html>

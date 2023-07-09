@@ -1,0 +1,138 @@
+<html>
+<head>
+<title>Registration Form</title>
+<style type="text/css">
+*{
+margin: 0;
+padding: 0;
+}
+body{
+font-family: sans-serif;
+margin-top: 40px;
+}
+.fa-arrow-left:hover
+{
+  color: saddlebrown !important;
+}
+.fa-user:hover
+{
+  color: saddlebrown !important;
+}
+.regform{
+width: 600px;
+background-color: rgb(0,0,0,0.6);
+margin: auto;
+color: #FFFFFF;
+padding: 10px 0px 10px 0px;
+text-align: center;
+border-radius: 15px 15px 0px 0px;
+}
+.main{
+background-color: rgb(0,0,0,0.5);
+width: 600px;
+margin: auto;
+height: 700px;
+}
+form{
+padding: 10px;
+
+}
+#name{
+width: 100%;
+height: 100px;
+}
+.login{
+position: relative;
+left: 200px;
+top: -37px;
+line-height: 40px;
+border-radius: 6px;
+padding: 0 22px;
+font-size: 16px;
+}
+.password{
+position: relative;
+left: 198px;
+top: -37px;
+line-height: 40px;
+border-radius: 6px;
+padding: 0 22px;
+font-size: 16px;
+color: #555;
+}
+.name{
+margin-left: 25px;
+margin-top: 20px;
+width: 125px;
+color: white;
+font-size: 22px;
+font-weight: 700;
+}
+.names{
+position: relative;
+left: 200px;
+top: -37px;
+line-height: 40px;
+border-radius: 6px;
+padding: 0 48px;
+font-size: 16px;
+}
+.cont{
+position: relative;
+left: 200px;
+top: -37px;
+line-height: 40px;
+border-radius: 6px;
+padding: 0 22px;
+font-size: 16px;
+}
+button{
+background-color: #3BAF9F;
+display: block;
+margin: 20px 0px 0px 20px;
+text-align: center;
+border-radius: 12px;
+border: 2px solid #366473;
+padding: 14px 110px;
+outline: none;
+color: white;
+cursor: pointer;
+transition: 0.25px;
+}
+button:hover{
+background-color: #5390F5;
+}
+</style>
+</head>
+<body background="diary.jpg" style=" backface-visibility:no-repeat; background-size:100%;">
+     <div class="nav">
+            <a href="home.html" id="back"><i class="fa-sharp fa-solid fa-arrow-left fa-2xl" style="color: white;
+                        position: absolute; left: 10px; top: 70px; font-size: 30px;"></i></a>
+ <a href="#" id="profile"><i class="fa-solid fa-user fa-2xl" style="color: white; float: right;
+                        position: absolute; left: 1480px; top: 70px; font-size: 30px;"></i></a>
+        </div>
+<div class="regform"><h1>Registration Form</h1></div>
+<div class="main">
+     <form  action="pri.jsp">
+    <h2 class="name">First Name</h2>
+    <input class="names" type="text" name="fname" required="required">
+    <h2 class="name">Last Name</h2>
+    <input class="names" type="text" name="lname" required="required">
+    <div id="name">
+    <h2 class="name">Email Id</h2>
+    <input class="names" type="email" name="email" required="required">
+    <h2 class="name">Password</h2>
+    <input class="names" type="password" name="pass" pattern="[Aa-Zz]+" maxlength="8" required="required">
+    <h2 class="name">Contact No</h2>
+    <input class="names" type="tel"maxlength="10" required pattern="[6-9]{1}[0-9]{9}">
+    <h2 class="name">Security Key</h2>
+    <input class="names" type="text" name="skey" required="required">
+    <button type="submit">Register</button>
+    <i><b><h5><h4 style="color: blanchedalmond;">Account Already Exists!!!!</h4>
+        <a href="two.html" style="color: rgb(243, 235, 235);">Login</a></h5></i></b>
+    </form>
+</div>
+</div>
+<script src="https://kit.fontawesome.com/f7b191fa8f.js" crossorigin="anonymous"></script>
+</body>
+</html>

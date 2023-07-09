@@ -1,0 +1,105 @@
+*
+{
+  margin: 0;
+  padding: 0;
+}
+.container
+{
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.7),rgba(0, 0, 0, 0.7)),url(background.png);
+  background-position: center;
+  background-size: cover;
+}
+.nav
+{
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  font-family: Algerian;
+  text-shadow: 4px 4px 2px saddlebrown;
+  padding-top: 20px;
+}
+.nav1
+{
+   text-align: center;
+  color: white;
+  font-family: sans-serif;
+  text-shadow: 4px 4px 2px black;
+  padding-top: 20px;
+}
+.class1
+{
+  color: white;
+  font-family: Algerian;
+  padding-left: 100px;
+  /*padding-top: 100px;*/
+}
+.class2
+{
+  color: white;
+  font-family: sans-serif;
+  /*line-height: 15px;*/
+  padding-left: 100px;
+  /*padding-top: 18px;*/
+}
+.image
+{
+  cursor: pointer;
+  padding-left: 80px;
+}
+.image1
+{
+  cursor: pointer;
+  font-size: 50px;
+}
+.row
+{
+  display: flex;
+  height: 88%;
+  align-items: center;
+}
+.col
+{
+  flex-basis: 50%;
+  height: 50%;
+}
+.card
+{
+  color: white;
+}
+.class3
+{
+  color: white;
+  font-family: Algerian;
+}
+.class4
+{
+  color: white;
+  font-family: sans-serif;
+}
+#login-form
+{
+    display: none;
+}
+.fa-arrow-left:hover
+{
+  color: saddlebrown !important;
+}
+.fa-user:hover
+{
+  color: saddlebrown !important;
+}
+.class5
+{
+    margin-left: 150px;
+    text-shadow: 2px 2px 2px grey;
+    background-color: rgb(245, 190, 10);;
+    color: #fff;
+    font-size: 20px;
+    height: 50px;
+    border: none;
+    border-radius: 5px;
+    width: 150px;
+    cursor: pointer;
+}
