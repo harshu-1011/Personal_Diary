@@ -4,8 +4,7 @@ This is a README file for the **Personal Diary** project, a web application deve
 
 ## Objective 🎯
 
-The objective of this project is to create a web application that allows users to store their personal diary entries securely. The application provides functionality to perform Create, Read, Update, and Delete (CRUD) operations on the diary entries. It also includes features to book seats and facilitates email communication.
-
+The objective of this project is to create a web application that allows users to store their personal diary entries securely. The application provides functionality to perform Create, Read, Update, and Delete (CRUD) operations on the diary entries. 
 ## Technology Stack 🛠️
 
 The following technologies and tools are used in this project:
